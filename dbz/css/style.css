@@ -1,0 +1,311 @@
+
+body{
+    text-align: center;
+    background-color: bisque;
+}
+
+.header {
+    background-color: #F09000;
+    padding: 20px 0;
+}
+  
+.header-container {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+  
+.nav-menu a {
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+  
+  .nav-menu > a:hover {
+    background-color: #000;
+}
+
+
+
+
+.conteneur{
+    display: flex;
+    padding-inline: 300px;
+}
+
+.nav-menu2{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu2 a{
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav-menu2 > a:hover {
+    background-color: #cbcbcb;
+}
+
+.box {
+    margin: 20px;
+}
+
+
+
+
+.vegeta{
+    height: 399px;
+    width: 200px;
+}
+.vegeta2{
+    height: 700px;
+    width: 350px;
+}
+.goku{
+    height: 399px;
+    width: 200px;
+}
+.goku2{
+    height: 700px;
+    width: 350px;
+}
+
+.gohan{
+    height: 399px;
+    width: 200px;
+}
+.gohan2{
+    height: 700px;
+    width: 350px;
+}
+.piccolo{
+    height: 700px;
+    width: 350px;
+}
+.songoten{
+    height: 700px;
+    width: 500px;
+}
+.chichire{
+    height: 700px;
+    width: 350px;
+}
+.cell{
+    height: 700px;
+    width: 350px;
+}
+.beerus{
+    height: 700px;
+    width: 350px;
+}
+.freezer{
+    height: 650px;
+    width: 400px;
+}
+.nappa{
+    height: 700px;
+    width: 350px;
+}
+.bulma{
+    height: 650px;
+    width: 250px;
+    margin-right: 20px;
+}
+.trunks{
+    height: 700px;
+    width: 250px;
+    margin-right: 20px;
+}
+.android18{
+    height: 800px;
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.perso{
+    font-size: 10rem;
+}
+
+.gauche-de-la-page{
+    background-color: rgb(255, 205, 144);
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.tout{
+    display: flex;
+}
+
+.propos{
+    background-color: rgb(255, 205, 144);
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border: #000;
+    border-radius: 10px;
+}
+
+.tout{
+    background-color: rgb(255, 205, 144);
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border: #000;
+    border-radius: 10px;
+}
+
+.premiere{
+    background-color: rgb(255, 205, 144);
+    text-align: center;
+    padding: 20px;
+    border: #000;
+    border-radius: 10px;
+}
+
+.contactnous{
+    background-color: rgb(255, 205, 144);
+    text-align: center;
+    border: #000;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+
+.espace{
+    color: #fff;
+    margin: 85px;
+    background-color: rgb(252, 185, 102);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.paysagedbz{
+    height: 250px;
+    width: 550px;
+}
+
+.liste1{
+    margin: 50px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.pied{
+    background-color: rgb(252, 185, 102);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .body {
+      /* background-color: red; */
+    }
+    .grande {
+      font-size: 22px;
+      padding: 10px;
+    }
+    .touttt {
+      flex-direction: column;
+      margin: 48px 0 0;
+    }
+    .settings {
+      display: none;
+    }
+    #videobox {
+      padding: 0 20px;
+    }
+    .videooo {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+    .content {
+      margin: 60px 0;
+      /* test */
+      /* margin: 0; */
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      /* test */
+    }
+    .titre {
+      color: #222222;
+      border-bottom: 2px solid #444444;
+      margin-bottom: 16px;
+    }
+    .list {
+      margin: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .list li {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .list li a {
+      color: #0b4f6c;
+      text-transform: capitalize;
+      font-weight: 600;
+      margin: 0;
+    }
+    .list li p {
+    }
+    .footer {
+          width: 100%;
+      margin: 0;
+      border-radius: 10px 10px 0 0;
+      border: 1px solid #111;
+    }
+  }
